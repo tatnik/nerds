@@ -37,7 +37,8 @@
   --basic-dark: #444444;
   --basic-dark-gray: #4D4D4D;
   --basic-gray: #666666;
- 
+  --basic-light-gray: #A6A6A6;
+
   --basic-extra-light: #E1E1E1;
   --basic-light: #EEEEEE;
   --add-light1: #DFDFDF;
@@ -241,6 +242,10 @@ ul {
   text-underline-offset: 12px;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--special-neutral)
+}
+
+.user-navigation svg {
+  fill: var(--basic-light-gray);
 }
 
 /* Slider */
@@ -497,10 +502,11 @@ address {
   border-color: var(--basic-black);
 }
 
-.modal .input.error{
-  color:var(--special-neutral);
-  border-color:var(--special-neutral);
+.modal .input.error {
+  color: var(--special-neutral);
+  border-color: var(--special-neutral);
 }
+
 .modal .input-multyline {
   height: 118px;
 }
